@@ -11,6 +11,10 @@
 		03258E032BFC626D00368580 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03258E022BFC626D00368580 /* ContentView.swift */; };
 		03258E052BFC626F00368580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03258E042BFC626F00368580 /* Assets.xcassets */; };
 		03258E092BFC626F00368580 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03258E082BFC626F00368580 /* Preview Assets.xcassets */; };
+		03DCE7B52C0170C6002727E6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DCE7B42C0170C6002727E6 /* DetailView.swift */; };
+		03DCE7B72C0171D3002727E6 /* ConversionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DCE7B62C0171D3002727E6 /* ConversionProtocol.swift */; };
+		03DCE7B92C01722D002727E6 /* ConversionUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DCE7B82C01722D002727E6 /* ConversionUnit.swift */; };
+		03DCE7BB2C017429002727E6 /* ConversionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DCE7BA2C017429002727E6 /* ConversionType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		03258E042BFC626F00368580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03258E062BFC626F00368580 /* Handy_Dandy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Handy_Dandy.entitlements; sourceTree = "<group>"; };
 		03258E082BFC626F00368580 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		03DCE7B42C0170C6002727E6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		03DCE7B62C0171D3002727E6 /* ConversionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionProtocol.swift; sourceTree = "<group>"; };
+		03DCE7B82C01722D002727E6 /* ConversionUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionUnit.swift; sourceTree = "<group>"; };
+		03DCE7BA2C017429002727E6 /* ConversionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 			children = (
 				03258E002BFC626D00368580 /* Handy_DandyApp.swift */,
 				03258E022BFC626D00368580 /* ContentView.swift */,
+				03DCE7B42C0170C6002727E6 /* DetailView.swift */,
 				03258E042BFC626F00368580 /* Assets.xcassets */,
 				03258E062BFC626F00368580 /* Handy_Dandy.entitlements */,
 				03258E072BFC626F00368580 /* Preview Content */,
+				03DCE7B62C0171D3002727E6 /* ConversionProtocol.swift */,
+				03DCE7B82C01722D002727E6 /* ConversionUnit.swift */,
+				03DCE7BA2C017429002727E6 /* ConversionType.swift */,
 			);
 			path = "Handy Dandy";
 			sourceTree = "<group>";
@@ -140,7 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				03258E032BFC626D00368580 /* ContentView.swift in Sources */,
+				03DCE7B52C0170C6002727E6 /* DetailView.swift in Sources */,
 				03258E012BFC626D00368580 /* Handy_DandyApp.swift in Sources */,
+				03DCE7B72C0171D3002727E6 /* ConversionProtocol.swift in Sources */,
+				03DCE7B92C01722D002727E6 /* ConversionUnit.swift in Sources */,
+				03DCE7BB2C017429002727E6 /* ConversionType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
